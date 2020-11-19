@@ -7,7 +7,7 @@
   "main": "./api/index.ts",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/p-chan/vercel-serverless-functions-headless-template.git"
   },
   "dependencies": {
     "chrome-aws-lambda": "5.3.1",
