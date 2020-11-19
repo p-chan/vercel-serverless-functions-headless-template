@@ -1,0 +1,26 @@
+{
+  "name": "vercel-serverless-functions-headless-template",
+  "version": "1.0.0",
+  "description": "A template of Puppeteer on Vercel Serverless Functions",
+  "license": "MIT",
+  "author": "P-Chan",
+  "main": "./api/index.ts",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "5.3.1",
+    "puppeteer-core": "5.3.1"
+  },
+  "devDependencies": {
+    "@p-chan/prettier-config": "2.0.0",
+    "@p-chan/tsconfig": "1.1.0",
+    "@vercel/node": "1.8.5",
+    "prettier": "2.1.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "private": true
+}
